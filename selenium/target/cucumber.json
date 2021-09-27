@@ -1,0 +1,203 @@
+[
+  {
+    "line": 6,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-16T08:11:28.952Z",
+        "line": 9,
+        "name": "Search Laptop and add it to the cart",
+        "description": "",
+        "id": "adding-a-laptop-to-the-cart;search-laptop-and-add-it-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2001700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": I am at the home page",
+            "match": {
+              "location": "StepDefinition.runner.i_am_at_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": ": I click on the \"Laptops\" search filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptops\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.runner.i_click_on_the_search_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ": I should be at the \"Laptops\" search page with \"35 items\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptops\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"35 items\"",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinition.runner.i_should_be_at_the_search_page_with(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": The title should be \"Laptops\" search page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptops\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinition.runner.the_title_should_be_search_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": I select the \"APPLE MacBook Pro Retina\" with description as \"15-inch, 256GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"APPLE MacBook Pro Retina\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"15-inch, 256GB\"",
+                  "offset": 62
+                }
+              ],
+              "location": "StepDefinition.runner.i_select_the_with_description_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": ": Add it to the cart",
+            "match": {
+              "location": "StepDefinition.runner.add_it_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": ": Navigate to user details page and provide the following details",
+            "match": {
+              "location": "StepDefinition.runner.navigate_to_user_details_page_and_provide_the_following_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Destination",
+                  "Singapore"
+                ]
+              },
+              {
+                "cells": [
+                  "Airline",
+                  "AirAsia"
+                ]
+              },
+              {
+                "cells": [
+                  "FlightNo",
+                  "A089"
+                ]
+              },
+              {
+                "cells": [
+                  "FlightDate",
+                  "24/08/2016"
+                ]
+              },
+              {
+                "cells": [
+                  "FlightTime",
+                  "5:00"
+                ]
+              },
+              {
+                "cells": [
+                  "Terminal",
+                  "Terminal 1"
+                ]
+              },
+              {
+                "cells": [
+                  "FirstName",
+                  "Selenium"
+                ]
+              },
+              {
+                "cells": [
+                  "LastName",
+                  "Java"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "sq@j.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Phone",
+                  "121212121"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@chrome"
+          }
+        ]
+      }
+    ],
+    "name": "Adding a laptop to the Cart",
+    "description": "",
+    "id": "adding-a-laptop-to-the-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/run.feature",
+    "tags": []
+  }
+]
